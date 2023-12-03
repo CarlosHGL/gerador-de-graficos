@@ -7,11 +7,17 @@
     <link rel="stylesheet" href="../static/style.css">
 </head>
 <body>
-    <section class="data-enter-section">
-        <form class="archive-data-enter" action="/" method="post">
-            <input class="load-archive-button" type="file" accept=".xlsx, .xls, .csv">
-            <input type="submit">
-        </form>
+    <section class="login-form-section">
+        <div class="conteiner-form">
+            <img class="logo-login" src="../static/img/logo_rumo_brado.png" alt="">
+            <form class="formulario-login" action="/login" method="POST">
+                <!-- <label for="Email">Email:</label> -->
+                <input class="email-enter input-login" type="email" name="Email" placeholder="Email">
+                <!-- <label for="Senha">Senha:</label> -->
+                <input class="password-enter input-login" type="password" name="Senha" placeholder="Senha">
+                <button class="login-button" type="submit">Entrar</button>
+            </form>
+        </div>
     </section>
 </body>
 <script></script>
