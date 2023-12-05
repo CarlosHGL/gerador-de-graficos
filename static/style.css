@@ -52,5 +52,9 @@
     border: none;
     border-radius: 8px;
     background-color: #d3d3d3;
-    color: #FFFFFF;
+    color: #000000;
+}
+
+.input-login:focus {
+    outline: #2aa7ea solid 2px;
 }

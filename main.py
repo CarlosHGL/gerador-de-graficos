@@ -18,8 +18,13 @@ def converter_segundos(valor_segundos):
 
 app = Flask('app')
 
+@app.route("/login", methods=['GET', "POST"])
+def login():
+    # continue
+    return render_template("index.html")
 
-@app.route('/', methods=['GET', 'POST'])
+
+# @app.route('/', methods=['GET', 'POST'])
 def index():
     db = {}
     mediaSemana = ""

@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    text-decoration: none;    
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.sessao-principal {
+    display: grid;
+    grid-template-columns: 75px 100%;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(110deg, #133a65 25%, #018c8a);
+}
+
+.sessao-barra-lateral {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    grid-column: 1;
+    width: 100%;
+    padding: 20px 0px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.sessao-graficos {
+    grid-column: 2;
+    width: 90%;
+    margin: 15px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.link-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #001b32;
+}
+
+.icone-link-button {
+    width: 50px;
+    height: 50px;
+    stroke: aliceblue;
+    fill: none;
+    stroke: #001b32;
+    stroke-miterlimit: 10;
+    stroke-width: 4px;
+}
